@@ -14,6 +14,8 @@
 		05DDEFEA1AD0224C00B391F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DDEFE91AD0224C00B391F2 /* Images.xcassets */; };
 		05DDEFED1AD0224C00B391F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DDEFEB1AD0224C00B391F2 /* LaunchScreen.xib */; };
 		05DDEFF91AD0224C00B391F2 /* empresaepontoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DDEFF81AD0224C00B391F2 /* empresaepontoTests.m */; };
+		9631CBA01AD02DBE00BC3B45 /* clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9631CB9E1AD02DBE00BC3B45 /* clock.jpg */; };
+		9631CBA11AD02DBE00BC3B45 /* footer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9631CB9F1AD02DBE00BC3B45 /* footer.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		05DDEFF21AD0224C00B391F2 /* empresaepontoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empresaepontoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DDEFF71AD0224C00B391F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05DDEFF81AD0224C00B391F2 /* empresaepontoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = empresaepontoTests.m; sourceTree = "<group>"; };
+		9631CB9E1AD02DBE00BC3B45 /* clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clock.jpg; sourceTree = "<group>"; };
+		9631CB9F1AD02DBE00BC3B45 /* footer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = footer.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		05DDEFDB1AD0224C00B391F2 /* empresaeponto */ = {
 			isa = PBXGroup;
 			children = (
+				9631CB9D1AD02D4700BC3B45 /* Image */,
 				05DDEFE01AD0224C00B391F2 /* AppDelegate.h */,
 				05DDEFE11AD0224C00B391F2 /* AppDelegate.m */,
 				05DDEFE31AD0224C00B391F2 /* ViewController.h */,
@@ -117,6 +122,15 @@
 				05DDEFF71AD0224C00B391F2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9631CB9D1AD02D4700BC3B45 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				9631CB9E1AD02DBE00BC3B45 /* clock.jpg */,
+				9631CB9F1AD02DBE00BC3B45 /* footer.jpg */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9631CBA01AD02DBE00BC3B45 /* clock.jpg in Resources */,
 				05DDEFE81AD0224C00B391F2 /* Main.storyboard in Resources */,
 				05DDEFED1AD0224C00B391F2 /* LaunchScreen.xib in Resources */,
 				05DDEFEA1AD0224C00B391F2 /* Images.xcassets in Resources */,
+				9631CBA11AD02DBE00BC3B45 /* footer.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +430,7 @@
 				05DDEFFE1AD0224C00B391F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05DDEFFF1AD0224C00B391F2 /* Build configuration list for PBXNativeTarget "empresaepontoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +439,7 @@
 				05DDF0011AD0224C00B391F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
