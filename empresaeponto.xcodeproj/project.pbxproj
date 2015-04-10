@@ -14,6 +14,11 @@
 		05DDEFEA1AD0224C00B391F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DDEFE91AD0224C00B391F2 /* Images.xcassets */; };
 		05DDEFED1AD0224C00B391F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DDEFEB1AD0224C00B391F2 /* LaunchScreen.xib */; };
 		05DDEFF91AD0224C00B391F2 /* empresaepontoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DDEFF81AD0224C00B391F2 /* empresaepontoTests.m */; };
+		184ED9E41AD84C6000AF5035 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 184ED9DF1AD84C6000AF5035 /* background.png */; };
+		184ED9E51AD84C6000AF5035 /* botaoentrar black.png in Resources */ = {isa = PBXBuildFile; fileRef = 184ED9E01AD84C6000AF5035 /* botaoentrar black.png */; };
+		184ED9E61AD84C6000AF5035 /* botaoentrar gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 184ED9E11AD84C6000AF5035 /* botaoentrar gray.png */; };
+		184ED9E71AD84C6000AF5035 /* botaoentrar zero.png in Resources */ = {isa = PBXBuildFile; fileRef = 184ED9E21AD84C6000AF5035 /* botaoentrar zero.png */; };
+		184ED9E81AD84C6000AF5035 /* clock1.png in Resources */ = {isa = PBXBuildFile; fileRef = 184ED9E31AD84C6000AF5035 /* clock1.png */; };
 		9631CBA01AD02DBE00BC3B45 /* clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9631CB9E1AD02DBE00BC3B45 /* clock.jpg */; };
 		9631CBA11AD02DBE00BC3B45 /* footer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9631CB9F1AD02DBE00BC3B45 /* footer.jpg */; };
 		B62F6C101AD30EC000A0882A /* footer2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B62F6C0F1AD30EC000A0882A /* footer2.jpeg */; };
@@ -43,6 +48,11 @@
 		05DDEFF21AD0224C00B391F2 /* empresaepontoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empresaepontoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DDEFF71AD0224C00B391F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05DDEFF81AD0224C00B391F2 /* empresaepontoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = empresaepontoTests.m; sourceTree = "<group>"; };
+		184ED9DF1AD84C6000AF5035 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		184ED9E01AD84C6000AF5035 /* botaoentrar black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoentrar black.png"; sourceTree = "<group>"; };
+		184ED9E11AD84C6000AF5035 /* botaoentrar gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoentrar gray.png"; sourceTree = "<group>"; };
+		184ED9E21AD84C6000AF5035 /* botaoentrar zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaoentrar zero.png"; sourceTree = "<group>"; };
+		184ED9E31AD84C6000AF5035 /* clock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock1.png; sourceTree = "<group>"; };
 		9631CB9E1AD02DBE00BC3B45 /* clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clock.jpg; sourceTree = "<group>"; };
 		9631CB9F1AD02DBE00BC3B45 /* footer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = footer.jpg; sourceTree = "<group>"; };
 		B62F6C0F1AD30EC000A0882A /* footer2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = footer2.jpeg; sourceTree = "<group>"; };
@@ -72,6 +82,7 @@
 				05DDEFDB1AD0224C00B391F2 /* empresaeponto */,
 				05DDEFF51AD0224C00B391F2 /* empresaepontoTests */,
 				05DDEFDA1AD0224C00B391F2 /* Products */,
+				184ED9DE1AD84C4E00AF5035 /* imagens View Prototipo */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +135,19 @@
 				05DDEFF71AD0224C00B391F2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184ED9DE1AD84C4E00AF5035 /* imagens View Prototipo */ = {
+			isa = PBXGroup;
+			children = (
+				184ED9DF1AD84C6000AF5035 /* background.png */,
+				184ED9E01AD84C6000AF5035 /* botaoentrar black.png */,
+				184ED9E11AD84C6000AF5035 /* botaoentrar gray.png */,
+				184ED9E21AD84C6000AF5035 /* botaoentrar zero.png */,
+				184ED9E31AD84C6000AF5035 /* clock1.png */,
+			);
+			name = "imagens View Prototipo";
+			path = "empresaeponto/imagens View Prototipo";
 			sourceTree = "<group>";
 		};
 		9631CB9D1AD02D4700BC3B45 /* Image */ = {
@@ -217,10 +241,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9631CBA01AD02DBE00BC3B45 /* clock.jpg in Resources */,
+				184ED9E61AD84C6000AF5035 /* botaoentrar gray.png in Resources */,
+				184ED9E71AD84C6000AF5035 /* botaoentrar zero.png in Resources */,
 				05DDEFE81AD0224C00B391F2 /* Main.storyboard in Resources */,
+				184ED9E41AD84C6000AF5035 /* background.png in Resources */,
 				05DDEFED1AD0224C00B391F2 /* LaunchScreen.xib in Resources */,
 				05DDEFEA1AD0224C00B391F2 /* Images.xcassets in Resources */,
 				9631CBA11AD02DBE00BC3B45 /* footer.jpg in Resources */,
+				184ED9E51AD84C6000AF5035 /* botaoentrar black.png in Resources */,
+				184ED9E81AD84C6000AF5035 /* clock1.png in Resources */,
 				B62F6C101AD30EC000A0882A /* footer2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
