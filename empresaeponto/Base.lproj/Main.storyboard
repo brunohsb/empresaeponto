@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XRp-CU-1jY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XRp-CU-1jY">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="GYf-9y-fAe">
             <objects>
-                <viewController id="XRp-CU-1jY" sceneMemberID="viewController">
+                <viewController id="XRp-CU-1jY" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bwn-Da-wL9"/>
                         <viewControllerLayoutGuide type="bottom" id="ilp-iC-3Ug"/>
@@ -73,6 +73,9 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted" image="botaoentrar gray.png"/>
+                                <connections>
+                                    <action selector="logarUsuario:" destination="XRp-CU-1jY" eventType="touchUpInside" id="y3T-nx-qG4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCE-3x-f9W">
                                 <rect key="frame" x="525" y="587" width="115" height="30"/>
@@ -98,10 +101,15 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="imgLogo" destination="rUX-9E-zDt" id="Wvk-Ez-F1A"/>
+                        <outlet property="txtLogin" destination="LZi-yu-I0M" id="kCC-Ia-oRx"/>
+                        <outlet property="txtSenha" destination="Smd-Y8-wVg" id="roU-Kl-r7P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzt-1q-B7r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="306" y="-555"/>
+            <point key="canvasLocation" x="194" y="-549"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9sV-A2-xyJ">

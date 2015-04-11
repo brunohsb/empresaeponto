@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *txtLogin;
+@property (strong, nonatomic) IBOutlet UITextField *txtSenha;
+@property (strong, nonatomic) IBOutlet UIImageView *imgLogo;
+
+- (IBAction)logarUsuario:(id)sender;
 
 @end
 

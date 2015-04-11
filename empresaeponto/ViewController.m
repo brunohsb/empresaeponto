@@ -16,12 +16,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
+
+- (IBAction)logarUsuario:(id)sender {
+    
+    if ([_txtLogin.text isEqual: @""] && [_txtSenha.text isEqual:@""]) {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Atenção" message:@"Usuário não encontrado" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"ok", nil];
+        [alertView show];
+        
+    } else {
+        [self autenticarUsuario];
+    }
+}
+
+-(void) autenticarUsuario{
+    //
+}
+
 
 @end
