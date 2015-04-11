@@ -21,6 +21,7 @@
 		184ED9E81AD84C6000AF5035 /* clock1.png in Resources */ = {isa = PBXBuildFile; fileRef = 184ED9E31AD84C6000AF5035 /* clock1.png */; };
 		9631CBA01AD02DBE00BC3B45 /* clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9631CB9E1AD02DBE00BC3B45 /* clock.jpg */; };
 		9631CBA11AD02DBE00BC3B45 /* footer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9631CB9F1AD02DBE00BC3B45 /* footer.jpg */; };
+		B60BC9401AD94CC0007078AB /* CreateAcountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BC93F1AD94CC0007078AB /* CreateAcountVC.m */; };
 		B62F6C101AD30EC000A0882A /* footer2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B62F6C0F1AD30EC000A0882A /* footer2.jpeg */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		184ED9E31AD84C6000AF5035 /* clock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock1.png; sourceTree = "<group>"; };
 		9631CB9E1AD02DBE00BC3B45 /* clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clock.jpg; sourceTree = "<group>"; };
 		9631CB9F1AD02DBE00BC3B45 /* footer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = footer.jpg; sourceTree = "<group>"; };
+		B60BC93E1AD94CC0007078AB /* CreateAcountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAcountVC.h; sourceTree = "<group>"; };
+		B60BC93F1AD94CC0007078AB /* CreateAcountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAcountVC.m; sourceTree = "<group>"; };
 		B62F6C0F1AD30EC000A0882A /* footer2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = footer2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +103,8 @@
 			children = (
 				9631CB9D1AD02D4700BC3B45 /* Image */,
 				05DDEFE01AD0224C00B391F2 /* AppDelegate.h */,
+				B60BC93E1AD94CC0007078AB /* CreateAcountVC.h */,
+				B60BC93F1AD94CC0007078AB /* CreateAcountVC.m */,
 				05DDEFE11AD0224C00B391F2 /* AppDelegate.m */,
 				05DDEFE31AD0224C00B391F2 /* ViewController.h */,
 				05DDEFE41AD0224C00B391F2 /* ViewController.m */,
@@ -270,6 +275,7 @@
 			files = (
 				05DDEFE51AD0224C00B391F2 /* ViewController.m in Sources */,
 				05DDEFE21AD0224C00B391F2 /* AppDelegate.m in Sources */,
+				B60BC9401AD94CC0007078AB /* CreateAcountVC.m in Sources */,
 				05DDEFDF1AD0224C00B391F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
